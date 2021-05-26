@@ -1,5 +1,12 @@
-<?php get_header(); ?>
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title><?php bloginfo('title'); ?></title>
+    <?php wp_head() ?>
+</head>
+
+<body <?php body_class( 'class-name' ); ?>>
     <header>
         <h1><?php bloginfo('title'); ?></h1>
     </header>
@@ -29,5 +36,10 @@ endif;
         <!-- Loop ends -->
     </main>
 
+    <footer>
+        <p>&copy; 2021 Enno Hyttrek</p>
+        <?php wp_footer() ?>
+    </footer>
+</body>
 
-<?php get_footer(); ?>
+</html>
