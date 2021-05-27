@@ -1,0 +1,142 @@
+/*
+Theme Name: My Custom Theme 1.0.10
+Version: 1.0.10
+Author: Enno Hyttrek
+*/
+
+/*
+RESET
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+LAYOUT
+*/
+
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+    padding: 1em 20px;
+}
+
+p {
+    padding-top: 0;
+}
+
+
+footer,
+main {
+    width: 60em;
+    margin: 0 auto;
+}
+
+footer {
+    padding-top: 1em;
+}
+
+.my-featured-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.blog .my-featured-image {
+    width: 360px;
+}
+
+/*
+.singular-featured-image {
+       width: 100%; 
+}
+
+*/
+
+/*
+NAVIGATION
+*/
+
+nav.main-nav {
+    color: #fff;
+}
+
+nav.main-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav.main-nav ul li {
+    margin-right: 1em;
+}
+
+nav.main-nav a,
+nav.main-nav a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav.main-nav a:hover,
+nav.main-nav a:active {
+    color: rgb(255,128,0);
+}
+
+
+div.menu-hauptmenu-rot-container {
+    background: red;
+}
+
+div.menu-hauptmenu-gruen-container {
+    background: green;
+}
+
+
+/*
+COLOR & STYLE
+*/
+
+body {
+    background: hsl(200,13%,13%);
+}
+
+header {
+    background: hsl(200,13%,76%);
+}
+
+main {
+    background: #fff;
+}
+
+footer {
+    color: hsl(200,13%,94%);
+}
+
+
+/*
+TYPOGRAPHY
+*/
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+header h1,
+header h2 {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 4em;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
