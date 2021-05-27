@@ -2,7 +2,8 @@
 
 function myCustomTheme_stylesheets() {
     wp_enqueue_style( 'style', get_stylesheet_uri()); 
-//    wp_enqueue_style( 'inter-font', get_template_directory_uri() . '/fonts/inter/font-style.css' );
+    wp_enqueue_style( 'odibee-font', get_template_directory_uri() . '/fonts/odibee/font-style.css' );
+    wp_enqueue_style( 'inter-font', get_template_directory_uri() . '/fonts/inter/font-style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'myCustomTheme_stylesheets' );
 
