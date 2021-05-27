@@ -68,6 +68,14 @@ nav.main-nav a:active {
 }
 
 
+div.menu-hauptmenu-rot-container {
+    background: red;
+}
+
+div.menu-hauptmenu-gruen-container {
+    background: green;
+}
+
 
 /*
 COLOR & STYLE
