@@ -1,6 +1,6 @@
 /*
-Theme Name: My Custom Theme 1.0.3
-Version: 1.0.3
+Theme Name: My Custom Theme 1.0.5
+Version: 1.0.5
 Author: Enno Hyttrek
 */
 
@@ -36,6 +36,35 @@ main {
 
 footer {
     padding-top: 1em;
+}
+
+
+/*
+NAVIGATION
+*/
+
+nav.main-nav {
+    color: #fff;
+}
+
+nav.main-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav.main-nav ul li {
+    margin-right: 1em;
+}
+
+nav.main-nav a,
+nav.main-nav a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav.main-nav a:hover,
+nav.main-nav a:active {
+    color: rgb(255,128,0);
 }
 
 
