@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <header>
-    <h1><?php bloginfo('title'); ?></h1>
-    <p>Index</p>
+    <h2><?php bloginfo('title'); ?></h2>
+    <p>Singular</p>
 </header>
 
 <nav class="main-nav">
@@ -21,7 +21,7 @@ if ( have_posts() ) :
 
     <article>
 
-        <h2><?php the_title(); ?></h2>
+        <h1><?php the_title(); ?></h1>
         <section>
             <?php the_content(); ?>
         </section>
