@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <header>
-    <h2><?php bloginfo('title'); ?></h2>
-    <p>Singular</p>
+    <h1><?php bloginfo('title'); ?></h1>
+    <p>Index</p>
 </header>
 
 <nav class="main-nav">
@@ -21,12 +21,11 @@ if ( have_posts() ) :
 
     <article>
 
-        <h1><?php the_title(); ?></h1>
-
-        <figure class="image my-featured-image singular-featured-image">
-            <?php echo the_post_thumbnail( 'large' )?>
+        <figure class="image my-featured-image">
+            <?php echo the_post_thumbnail( 'thumbnail' )?>
         </figure>
 
+        <h2><?php the_title(); ?></h2>
         <section>
             <?php the_content(); ?>
         </section>
