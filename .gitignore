@@ -60,3 +60,8 @@ twentytwenty/assets/css/editor-style-block.css
 twentytwenty/assets/css/editor-style-block-rtl.css
 twentytwenty/404.php
 twentytwenty/.stylelintrc.json
+.DS_Store
+my-custom-theme-09/.DS_Store
+my-custom-theme-09/fonts/.DS_Store
+my-custom-theme-10/.DS_Store
+my-custom-theme-10/fonts/.DS_Store
