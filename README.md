@@ -1,1 +1,3 @@
-# uebung-custom-themes-2021
+# uebung-php-custom-themes
+
+Video tutorial: https://www.youtube.com/playlist?list=PLSZHjIBhulpEskmh9Jli-00wOZof4BKhr
